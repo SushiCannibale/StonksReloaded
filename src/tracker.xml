@@ -1,0 +1,102 @@
+<!-- 1er POST -->
+<path_step_score>
+     <course>SK-CHI-L2-NA-PE-NA-NA-Y-3</course>
+     <unit_index>0</unit_index>
+     <lesson_index>0</lesson_index>
+     <path_type>general</path_type>
+     <occurrence>1</occurrence>
+     <path_step_media_id>PATHSTEP_8946188</path_step_media_id>
+     <complete>true</complete>
+     <score_correct>6</score_correct>
+     <score_incorrect>0</score_incorrect>
+     <score_skipped type="fmcp">0</score_skipped>
+     <number_of_challenges>6</number_of_challenges>
+     <speech_was_enabled>true</speech_was_enabled>
+     <version>185111</version>
+     <updated_at>1706401615148</updated_at>
+ </path_step_score>
+
+<!-- 2e POST -->
+<path_score>
+    <course>SK-CHI-L2-NA-PE-NA-NA-Y-3</course>
+    <unit_index>0</unit_index>
+    <lesson_index>0</lesson_index>
+    <path_type>general</path_type>
+    <occurrence>1</occurrence>
+    <complete>false</complete>
+    <score_correct>6</score_correct>
+    <score_incorrect>0</score_incorrect>
+    <score_skipped type="fmcp">0</score_skipped>
+    <number_of_challenges>121</number_of_challenges>
+    <delta_time>55127</delta_time>
+    <version>185111</version>
+    <updated_at>1706401615148</updated_at>
+    <is_lagged_review_path>false</is_lagged_review_path>
+</path_score>
+<!-- 
+curl 'https://tracking.rosettastone.com/ee/ce/a0fb3563-1d51-41d6-af0b-35fa6b7ebb1b/users/4020032/path_step_scores?\
+course=SK-CHI-L2-NA-PE-NA-NA-Y-3&\
+unit_index=0&\
+lesson_index=0&\
+path_type=general&\
+occurrence=1&\
+path_step_media_id=PATHSTEP_8946302&\
+_method=put' \
+  -X 'OPTIONS' \
+  -H 'authority: tracking.rosettastone.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'access-control-request-headers: content-type,x-rosettastone-app-version,x-rosettastone-protocol-version,x-rosettastone-session-token' \
+  -H 'access-control-request-method: POST' \
+  -H 'origin: https://totale.rosettastone.com' \
+  -H 'referer: https://totale.rosettastone.com/' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' \
+  --compressed
+-->
+
+<!-- 
+curl 'https://tracking.rosettastone.com/ee/ce/a0fb3563-1d51-41d6-af0b-35fa6b7ebb1b/users/4020032/path_scores?\
+course=SK-CHI-L2-NA-PE-NA-NA-Y-3&\
+unit_index=0&\
+lesson_index=0&\
+path_type=general&\
+occurrence=1\
+&_method=put' \
+--compressed \
+-X POST \
+-H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0' \
+-H 'Accept: */*' \
+-H 'Accept-Language: en-US,en;q=0.5' \
+-H 'Accept-Encoding: gzip, deflate, br' \
+-H 'Referer: https://totale.rosettastone.com/' \
+-H 'content-type: text/xml' \
+-H 'x-rosettastone-app-version: ZoomCourse/11.11.3' \
+-H 'x-rosettastone-protocol-version: 8' \
+-H 'x-rosettastone-session-token: 06ca086045ccb47b5766c49ec59f8c1f58de077346601271156004a0a49063dcd7cb8292a4cdbbc1' \
+-H 'Origin: https://totale.rosettastone.com' \
+-H 'Connection: keep-alive' \
+-H 'Sec-Fetch-Dest: empty' \
+-H 'Sec-Fetch-Mode: cors' \
+-H 'Sec-Fetch-Site: same-site' \
+-H 'TE: trailers' \
+--data-raw $\
+'<path_score>\n
+    <course>SK-CHI-L2-NA-PE-NA-NA-Y-3</course>\n
+    <unit_index>0</unit_index>\n
+    <lesson_index>0</lesson_index>\n
+    <path_type>general</path_type>\n
+    <occurrence>1</occurrence>\n
+    <complete>false</complete>\n
+    <score_correct>6</score_correct>\n
+    <score_incorrect>0</score_incorrect>\n
+    <score_skipped type="fmcp">0</score_skipped>\n
+    <number_of_challenges>121</number_of_challenges>\n
+    <delta_time>55127</delta_time>\n
+    <version>185111</version>\n
+    <updated_at>1706401615148</updated_at>\n
+    <is_lagged_review_path>false</is_lagged_review_path>\n
+</path_score>' 
+-->

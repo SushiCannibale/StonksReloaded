@@ -1,0 +1,16 @@
+<path_score>
+    <course>SK-CHI-L2-NA-PE-NA-NA-Y-3</course>
+    <unit_index>0</unit_index>
+    <lesson_index>0</lesson_index>
+    <path_type>general</path_type>
+    <occurrence>1</occurrence>
+    <complete>false</complete>
+    <score_correct>6</score_correct>
+    <score_incorrect>0</score_incorrect>
+    <score_skipped type="fmcp">0</score_skipped>
+    <number_of_challenges>121</number_of_challenges>
+    <delta_time>55127</delta_time>
+    <version>185111</version>
+    <updated_at>1706401615148</updated_at>
+    <is_lagged_review_path>false</is_lagged_review_path>
+</path_score>
